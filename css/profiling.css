@@ -1,0 +1,155 @@
+svg {
+	cursor: pointer;
+}
+
+.box { border-top: none; border-bottom: none; }
+
+.panel { background: #eee; border-collapse: collapse; border-top: none !important; }
+.col {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin-top: 0 !important;
+}
+
+/* Filters Table */
+#table-filters {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+	#table-filters li {
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid #ccc;
+		/* padding: 5px 10px; */
+	}
+	#table-filters li > a {
+		display: block;
+		line-height: 1em;
+		padding: 1em;
+		text-align: center;
+		color: #000;
+	}
+	#table-filters li > a > .number {
+		font-size: 2em;
+		display: block;
+		margin-bottom: 10px;
+	}
+		
+	#table-filters li > a:hover {
+		background: #dff699;
+	}
+	#table-filters li.active > a {
+		background: #dff699;
+	}
+	
+
+	
+#table-info tr td {
+	text-align: center;
+}
+	#table-info tr td .number {
+		font-size: 2em;
+		display: inline-block;
+		margin: 0 10px;
+	}
+	
+/* Main Table on Page 1 */
+#main-table tbody tr {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* Page 2 */
+#page2-table-info tr,
+#page2-table-info tr td {
+	border-top: none;
+	border-bottom: none;
+}
+
+
+
+
+#box_general table {
+	width: 100%;
+}
+#box_general table > tr > td > span {
+	display: inline-block;
+	padding: 0px 5px;
+}
+
+#fq_dist_zoomed,
+#fq_dist_full {
+	margin-left: 10px;
+	margin-top: 2px;
+	width: calc(100% - 10px);
+	overflow: hidden;
+}
+
+
+#fq_dist_zoomed_table tr.selected {
+	background: #dff699;
+	color: #000000;
+}
+#graph_viewport {
+	position: absolute;
+	height: 60px;
+	top: 16px;
+	background: rgba(0, 0, 0, 0.2);
+	z-index: 1;
+border-bottom:2px solid #ccc; 
+}
+
+/* Slider CSS */
+div.ui-widget-content {
+	border: none;
+	background: none;
+}
+	.ui-widget-content .ui-state-hover {
+		background: rgba(0, 0, 0, 0.2);
+	}
+span.ui-slider-handle {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-radius: 0;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.fq_dist_zoomed_wrapper {
+	background: rgba(0, 0, 0, 0.01);
+	border: 1px solid #ccc; 
+}
+
+/* 
+.box {
+	min-height: 100px;
+} */
+
+
+
+
+/* Helper Classes */
+.no-borders tr,
+.no-borders tr td {
+	border: none !important;
+}
+
+#select_filter_colRules > li > a {
+	display: inline-block;
+}
+
+.slider-range {
+    margin: 0 10px;
+}
+
+
+#drill-down-table tr td {
+	white-space: nowrap;
+}
