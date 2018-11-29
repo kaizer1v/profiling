@@ -1,0 +1,24 @@
+{
+  "name": "profiling",
+  "version": "1.0.0",
+  "description": "high fidelity prototype for informatica data profiling, for user validation purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaizer1v/profiling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaizer1v/profiling/issues"
+  },
+  "homepage": "https://github.com/kaizer1v/profiling#readme",
+  "dependencies": {
+    "jquery": "^1.11.0",
+    "jquery-ui": "^1.12.0",
+    "jquery.tipsy": "^1.0.3"
+  }
+}
