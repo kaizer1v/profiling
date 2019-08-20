@@ -19,6 +19,7 @@
   "dependencies": {
     "jquery": "^1.11.0",
     "jquery-ui": "^1.12.0",
-    "jquery.tipsy": "^1.0.3"
+    "jquery.tipsy": "^1.0.3",
+    "d3": "^3.4.3"
   }
 }
